@@ -1,6 +1,82 @@
 h1 {
-  font-family: garamond;
-  font-size: 32px;
-  color: green;
-  
+  font-size: 3em;
+  font-family: Verdana;
+}
+
+h2 {
+  font-size: 2em;
+  font-family: Verdana;
+  color: #fff;
+  padding: 10px;
+}
+
+p {
+  font-family: Verdana;
+  font-size: 0.9em;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.fff {
+  color: #fff;
+}
+
+.begin {
+  padding: 10px 0 70px 0;
+  margin: -10px auto 30px;
+  width: auto;
+  height: 120px;
+  text-align: center;
+  background-color: #20b2aa;
+}
+
+.main {
+  margin: 30px;
+  width: auto;
+  height: 200px;
+  text-align: center;
+}
+
+.bubble {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 20px;
+  text-align: center;
+}
+
+#red {
+  background-color: red;
+}
+
+#orange {
+  background-color: orange;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#green {
+  background-color: green;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#violet {
+  background-color: purple;
+}
+
+#button {
+  width: 470px;
+  height: 65px;
+  margin: 30px auto;
+  background-color: #66cdaa;
+  border-radius: 10px;
+  text-align: center;
 }
