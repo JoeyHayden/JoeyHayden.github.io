@@ -3,21 +3,21 @@ h1 {
   font-family: Verdana;
 }
 
-h2 {
-  font-size: 2em;
-  font-family: Verdana;
-  color: #fff;
-  padding: 10px;
-}
-
 p {
   font-family: Verdana;
   font-size: 0.9em;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 li {
   list-style-type: none;
   display: inline-block;
+  padding: 0;
+  margin: 0;
 }
 
 .fff {
@@ -31,13 +31,15 @@ li {
   height: 120px;
   text-align: center;
   background-color: #20b2aa;
+  position: relative;
 }
 
-.main {
-  margin: 30px;
+.main, .buttons {
+  margin: 50px;
   width: auto;
-  height: 200px;
+  height: 150px;
   text-align: center;
+  position: relative;
 }
 
 .bubble {
@@ -46,6 +48,7 @@ li {
   border-radius: 50%;
   margin: 20px;
   text-align: center;
+  padding: 0;
 }
 
 #red {
@@ -72,11 +75,30 @@ li {
   background-color: purple;
 }
 
-#button {
-  width: 470px;
+#btn1 {
+  width: 450px;
   height: 65px;
-  margin: 30px auto;
+  margin: 20px auto;
   background-color: #66cdaa;
   border-radius: 10px;
   text-align: center;
+  position: relative;
+  font-size: 2em;
+  font-family: Verdana;
+  color: #fff;
+  padding: 10px;
+}
+
+#btn2 {
+  width: 250px;
+  height: 65px;
+  margin: 15px auto;
+  background-color: #66cddd;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  font-size: 2em;
+  font-family: Verdana;
+  color: #fff;
+  padding: 10px;
 }
