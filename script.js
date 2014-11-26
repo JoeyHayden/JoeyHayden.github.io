@@ -1,55 +1,53 @@
-//http://shwuzzle.com/2013/09/06/bubble-sort-algorithm-in-javascript/
 
-var numbers = [1,3,5,2,4];
-    var tmp;
+$(document).ready(function() {
+  
+var numbers = [1,3,6,2,4,5];
+
+//On click sort function
+$("#btn1").click(function() {
+  var bubbleSort = function() {
+  var tmp;
     for (var i = 0; i < numbers.length; i += 1) {
         for (var j = i; j > 0; j -= 1) {
             if (numbers[j] < numbers[j - 1]) {
                 tmp = numbers[j];
                 numbers[j] = numbers[j - 1];
                 numbers[j - 1] = tmp;
+                }
             }
         }
-    }
-    console.log(numbers);
+    };
+});
 
-    
-$(document).ready(function() {
+var numbers = (numbers);
 
-  document.getElementById('btn').onclick = function() {
+var red, orange, yellow, green, blue, violet;
+  
+red = (numbers[0]);
+orange = (numbers[1]);
+yellow = (numbers[2]);
+green = (numbers[3]);
+blue = (numbers[4]);
+violet = (numbers[5]);
 
+// On click function to shuffle
+$("#btn2").click(function() {
+  function shuffle(numbers) {
+
+  var m = numbers.length, t, i;
+
+  // While there remain elements to shuffle…
+  while (m) {
+
+    // Pick a remaining element…
+    i = Math.floor(Math.random() * m--);
+
+    // And swap it with the current element.
+    t = numbers[m];
+    numbers[m] = numbers[i];
+    numbers[i] = t;
+  }
+  return numbers;
 }
-
-document.getElementById('btn2').oncontextmenu = function() {
-
-}
-
-var colors["red", "orange", "yellow", "green", "blue", "violet"];
-
-function bubbleSort(colors)
-{
-   var swapped;
-   do {
-       swapped = false;
-       for (var i=0; i < colors.length-1; i++) {
-           if (a[i] > a[i+1]) {
-               var temp = a[i];
-               a[i] = a[i+1];
-               a[i+1] = temp;
-               swapped = true; 
-           }
-       }
-   } while (swapped); 
-   console.log(swapped);
-}
-
-console.log(bubbleSort);
-
-$(window).click(function('#button1') {
-      
-      $('#red').width(red.position);
-      $('#orange').width(hare.position * 10 + 'px');
-      $('#yellow').width(fish.position * 10 + 'px');
-  });
-
+});
 });
