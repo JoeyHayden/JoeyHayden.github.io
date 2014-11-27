@@ -1,3 +1,31 @@
+/* === Responsive === */
+
+.onerow {
+  max-width: 2560px;
+  clear: both;
+  padding: 0;
+  text-align: center;
+  margin: 10px auto;
+  position: relative;
+}
+
+@media all and (max-width: 430px) {
+
+  .col {
+    float: none;
+    width: 99%;
+  }
+
+  h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 2.5em;
+  }
+
+}
+
+/* === Responsive === */
+
 h1 {
   font-size: 3em;
   font-family: Verdana;
@@ -5,7 +33,7 @@ h1 {
 
 p {
   font-family: Verdana;
-  font-size: 0.9em;
+  font-size: 1em;
 }
 
 ul {
@@ -35,11 +63,12 @@ li {
 }
 
 .main, .buttons {
-  margin: 50px;
-  width: auto;
-  height: 150px;
+  margin: 50px auto;
+  width: 100%;
+  height: auto;
   text-align: center;
   position: relative;
+  clear: both;
 }
 
 .bubble {
@@ -76,28 +105,28 @@ li {
 }
 
 #btn1 {
-  width: 450px;
-  height: 65px;
+  width: auto;
+  height: auto;
   margin: 20px auto;
   background-color: #66cdaa;
   border-radius: 10px;
   text-align: center;
   position: relative;
-  font-size: 2em;
+  font-size: 1.7em;
   font-family: Verdana;
   color: #fff;
   padding: 10px;
 }
 
 #btn2 {
-  width: 250px;
-  height: 65px;
+  width: auto;
+  height: auto;
   margin: 15px auto;
   background-color: #66cddd;
   border-radius: 10px;
   text-align: center;
   position: relative;
-  font-size: 2em;
+  font-size: 1.7em;
   font-family: Verdana;
   color: #fff;
   padding: 10px;

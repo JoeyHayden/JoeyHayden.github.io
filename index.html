@@ -9,40 +9,50 @@
     <meta name="author" content="Darren Cools">
 
     <link rel="stylesheet" href="stylesheet.css">
-    <script src="script.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </head>
 <body>
-  <div class="begin">
-    <h1 class="fff">WAVE LENGTH</h1>
-    <p class="fff">Sorting by spectrum light wave frequency.</p>
+  <div class="onerow">
+    <div class="begin">
+     <h1 class="fff">WAVE LENGTH</h1>
+      <p class="fff">Sorting by spectrum light wave frequency.</p>
+    </div>
   </div>
 
-  <div class="main">
-    <ul>
-      <li>
-        <div id="red" class="bubble"></div>
-      </li>
-      <li>
-        <div id="orange" class="bubble"></div>
-      </li>
-      <li>
-        <div id="yellow" class="bubble"></div>
-      </li>
-      <li>
-        <div id="green" class="bubble"></div>
-      </li>
-      <li>
-        <div id="blue" class="bubble"></div>
-      </li>
-      <li>
-        <div id="violet" class="bubble"></div>
-      </li>
-    </ul>
+  <div class="onerow">
+    <div class="main">
+      <ul id="colorList">
+        <li id="1">
+          <div id="red" class="bubble"></div>
+        </li>
+        <li id="2">
+          <div id="orange" class="bubble"></div>
+        </li>
+        <li id="3">
+          <div id="yellow" class="bubble"></div>
+        </li>
+        <li id="4">
+          <div id="green" class="bubble"></div>
+        </li>
+        <li id="5">
+          <div id="blue" class="bubble"></div>
+         </li>
+        <li id="6">
+          <div id="violet" class="bubble"></div>
+        </li>
+      </ul>
+    </div>
   </div>
 
-  <div class="buttons">
-    <input type="button" value="Sort by wave length" id="btn1">
-    <br /><br />
-    <input type="button" value="Scramble" id="btn2">
+  <div class="onerow">
+    <div class="buttons">
+      <input type="button" value="Scramble" id="btn2">
+        <br /><br />
+      <input type="button" value="Sort by wave length" id="btn1">
+    </div>
   </div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="script1.js"></script>
+
+</body>
+</html>
