@@ -1,14 +1,14 @@
 $(document).ready(function() {
 
 //global variables 
-var numbers = [1,2,3,4,5,6];
+var numbers = [0,1,2,3,4,5,];
 
 
 // On click function to shuffle
 //http://bost.ocks.org/mike/shuffle/
 $("#btn2").click(function() {
 
-var m = numbers.length + 1, t, i;
+var m = numbers.length, t, i;
 
 // While there remain elements to shuffle…
   while (m) {
